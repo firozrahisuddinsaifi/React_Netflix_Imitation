@@ -154,7 +154,7 @@ links:"https://www.netflix.com/in/title/81037371",
 id:17,
 imgScr : "https://wallpapercave.com/wp/wp4794199.jpg",
 bname : "A Netflix Original Series",
-sname: "Chot Bheem",
+sname: "Chota Bheem",
 links:"https://www.netflix.com/in/title/81088331",
 
 },
