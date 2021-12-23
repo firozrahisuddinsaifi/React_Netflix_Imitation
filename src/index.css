@@ -62,7 +62,7 @@ code {
 .container{
   width: 300px;
   height: auto;
-  margin: 50px 0;
+  margin-top: 50px;
   background-color: #fff;
   box-shadow: 0px 4px 8px 0px rgba(0, 0,0, 0.2);
   transition: all 0.5s ease 0s;
@@ -77,7 +77,7 @@ code {
 }
 @media only screen and (max-width: 1220px){
   .container{
-    margin-left: 15%;
+    margin-left: 2%;
   }
 }
 
@@ -95,29 +95,32 @@ code {
 }
 }
 
-@media only screen and (max-width:890px){
-  .digiTal_clock{
+@media only screen and (max-width:973px){
+  /* .digiTal_clock{
     box-shadow: none;
-  }
+  } */
   .container{
-    margin-left: 35%;
+    margin-left: 6%;
   }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:697px){
 
   .container{
-    margin-left: 20%;
+    margin-left: 5%;
   }
   .heading{
     text-align: center;
   }
 
   .digiTal_clock{
-    margin-top: 40px;
+    margin-top: 50px;
+    margin-right: 0px;
     text-align: center;
    right: 5px;
-   width: 100%;
+   width: 160px;
+   box-shadow: none;
+
   }
   }
   
