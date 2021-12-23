@@ -5,7 +5,7 @@ import React, { useState } from 'react'
 
 const App =()=> {
 
-    let currHours = new Date(2021,12,24,15);
+    let currHours = new Date();
     currHours = currHours.getHours();
     let greetings = "";
     let estiloColor = {};
