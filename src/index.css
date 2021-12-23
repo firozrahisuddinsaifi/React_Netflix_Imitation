@@ -36,7 +36,7 @@ code {
   top: 20px;
   right: 30px;
   text-align: center;
-  width: 150px;
+  width: 190px;
   height: 30px;
   border-radius: 10px;
   /* background-image: linear-gradient(to right,#03a9f4, #ff05d5); */
@@ -114,14 +114,15 @@ code {
   }
 
   .digiTal_clock{
-    margin-top: 68px;
+    margin-top: 55px;
     margin-right: 0px;
     text-align: center;
    right: 5px;
-   width: 160px;
+   width: 190px;
    box-shadow: none;
 
   }
+  
   }
   
 
@@ -179,8 +180,12 @@ button:hover{
 
 .pagination{
   width: 100%;
-  display: inline-block;
-  margin-top: 20px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 20px;
+  /* margin-top: 20px; */
   background-color: rgb(0,0,0);
   background-color: rgba(0, 0,0,0.8);
 
@@ -203,8 +208,7 @@ button:hover{
 .anchoring{
   text-align: center;
   color:#fff;
-  
-  
+
 }
 
 
@@ -221,10 +225,13 @@ button:hover{
   clear: both;
   display: table;
 }
+
+
+
 .copyright{
   text-align: center;
   letter-spacing: 3px;
-  margin-top: 0;
+  margin-top: 20px;
   padding: 10px;
   
 }
