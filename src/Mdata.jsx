@@ -4,7 +4,7 @@ const Mdata =
 id:1,
 imgScr : "https://wallpapercave.com/wp/wp4056399.jpg",
 bname:"A NetFlix Original Series",
-sname:"Dart",
+sname:"Dark",
 links: "https://www.netflix.com/in/title/80100172",
 },
 
