@@ -1,17 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDom from "react-dom";
+import App from "./App";
+import Mdetails from "./Mdetails";
+import Mdata from "./Mdata";
+import "./index.css";
+import Pagination from "./Pagination";
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+const newCard = (val) =>{
+  return(
+  <Mdetails  
+  key={val.id}
+  netimage ={val.imgScr}
+  comname={val.bname}
+    seriesname ={val.sname}
+      serieslink={val.links}
+     
+/>
+
+  )
+
+}
+
+ReactDom.render(
+  <>
+  <App />
+
+  <div className="header">
+  <h1 className='heading'>
+  Top 20 <span style={{color:'#e6422e'}}>Netflix </span>Original Series</h1>
+ {Mdata.map(newCard)}
+ </div>
+ <Pagination />
+
+   </>, document.getElementById("root")
+);  
